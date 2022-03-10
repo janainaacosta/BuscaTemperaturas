@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsao do Tempo</title>
+</head>
+<body>
+    <h1>Previsão do Tempo</h1>
+    <div class="container">
+        <div class="input">
+            <input type="text"  id="inputValue" placeholder="Informe a cidade">
+            <input type="submit" value="buscar" id="button">
+        </div>    
+        <label for="temperatura">temperatura:
+            <input type="text" id="temp" class="campos" size="3"> </label>
+        </label>  
+            <p id="name"></p>
+
+            <div id="dados">
+                <label for="pais"> país:
+                    <input type="text" id="pais" size="2"></label>   
+                <div id="MaxMin">
+                    <label for="maxima">Máx.: 
+                        <input type="text" id="max" class="campos" size="4"></label>
+                    <label for="minima">Min.: 
+                        <input type="text" id="min" class="campos" size="4"></label>        
+                </div>
+            </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

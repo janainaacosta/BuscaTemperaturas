@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+h1{
+    font-size: 45px;
+    font-weight: 230;
+    letter-spacing: 3px;
+    color: rgb(112, 112, 112);
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px  10px  rgb(179, 179, 179);
+    text-align: center;
+    padding: 10px;
+    margin: 5% auto;
+    height: 350px;
+    width: 330px;
+    border-radius: 15px;
+    border: solid 2px black;
+    justify-content: space-between;
+    align-items: center;
+}
+#temp{
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    margin-left: 55px;
+    border: none;
+    font-size: 78px;
+    padding: 10px;
+}
+.input{
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+.campos{
+    margin: 10px;
+}
+#inputValue{
+    background-color: transparent;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-top-left-radius: 7px;
+    border: solid 2px rgb(136, 135, 135);
+    color: rgb(100, 99, 99);
+    padding: 5px;
+}
+#button{
+    margin-left: 0;
+    margin-top: 0;
+    height: 37px;
+    width: 60px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border: none;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(136, 135, 135);
+}
+#max, #min, #pais{
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+}
+#dados{
+    font-size: 18px;
+    margin-top: 45px;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(184, 186, 187);
+    bottom: 0;
+}
