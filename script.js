@@ -7,7 +7,7 @@ var max = document.querySelector('#max');
 var min = document.querySelector('#min');
 
 button.addEventListener('click', function(){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=fa6bd2aed33461df25fd27efd6debe7d&units=metric')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=fa6bd2aed33461df25fd27efd6debe7d&units=metric')
     .then(response => response.json())
     .then(data => {
         var nameValue = data['name'];
